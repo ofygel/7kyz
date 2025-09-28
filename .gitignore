@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -10,4 +11,10 @@
 androidApp/.gradle/
 androidApp/build/
 androidApp/app/build/
+=======
+node_modules
+dist
+data/*.json
+.env
+>>>>>>> origin/main
 androidApp/gradle/wrapper/gradle-wrapper.jar
