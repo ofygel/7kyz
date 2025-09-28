@@ -2,3 +2,4 @@ node_modules
 dist
 data/*.json
 .env
+androidApp/gradle/wrapper/gradle-wrapper.jar

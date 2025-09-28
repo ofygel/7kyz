@@ -1,0 +1,12 @@
+<resources>
+    <color name="md_theme_light_primary">#0057D9</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_surface">#F8F9FF</color>
+    <color name="md_theme_light_onSurface">#171B2A</color>
+    <color name="md_theme_light_surfaceVariant">#E0E6FF</color>
+    <color name="md_theme_dark_primary">#AFC7FF</color>
+    <color name="md_theme_dark_onPrimary">#002B73</color>
+    <color name="md_theme_dark_surface">#101324</color>
+    <color name="md_theme_dark_onSurface">#F2F4FF</color>
+    <color name="md_theme_dark_surfaceVariant">#313754</color>
+</resources>

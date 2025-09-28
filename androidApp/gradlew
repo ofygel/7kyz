@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+
+set -e
+
+DIR="$(cd "$(dirname "$0")" && pwd)"
+
+APP_BASE_NAME="gradlew"
+
+CLASSPATH=$DIR/gradle/wrapper/gradle-wrapper.jar
+
+JAVA_EXEC=""
+if [ -n "$JAVA_HOME" ]; then
+  JAVA_EXEC="$JAVA_HOME/bin/java"
+else
+  JAVA_EXEC="java"
+fi
+
+exec "$JAVA_EXEC" -Dorg.gradle.appname=$APP_BASE_NAME -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
