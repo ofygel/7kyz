@@ -1,5 +1,20 @@
+<<<<<<< HEAD
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+androidApp/.gradle/
+androidApp/build/
+androidApp/app/build/
+=======
 node_modules
 dist
 data/*.json
 .env
+>>>>>>> origin/main
 androidApp/gradle/wrapper/gradle-wrapper.jar
